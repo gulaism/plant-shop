@@ -1,0 +1,48 @@
+header {
+    background-color: #efefef;
+}
+header .container {
+    height: 120px;
+    background-color: #efefef;
+}
+header .container .logo {
+    width: 171px;
+    height: 46px;
+}
+header .container .logo img {
+    width: 100%;
+    height: 100%;
+}
+header .container .links {
+    column-gap: 68px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+}
+header .container .links .active {
+    font-weight: 600;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+header .container .btn {
+    width: 32px;
+    height: 36px;
+}
+header .container .btn .notification {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    background-image:  linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    width: max-content;
+    padding-right: 7px;
+    padding-left: 7px;
+    flex-shrink: 0;
+    height: 21px;
+    border-radius: 100%;
+    top: 3px;
+    left: 18px;
+}

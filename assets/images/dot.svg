@@ -1,0 +1,17 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 4">
+<g id="Ellipse 3" filter="url(#filter0_b_2_31)">
+<circle cx="27" cy="27" r="27" fill="white" fill-opacity="0.2"/>
+<circle cx="27" cy="27" r="26.5" stroke="white"/>
+</g>
+<circle id="Ellipse 4" cx="27" cy="27" r="8" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_2_31" x="-4" y="-4" width="62" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_31"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_31" result="shape"/>
+</filter>
+</defs>
+</svg>

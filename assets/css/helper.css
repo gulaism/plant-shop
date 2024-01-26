@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.img-cover {
+    object-fit: cover;
+}
+.img-contain {
+    object-fit: contain;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.text-white {
+    color: #fff;
+}
+.btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.full-img {
+    width: 100%;
+    height: 100%;
+}
