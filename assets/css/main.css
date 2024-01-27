@@ -3,8 +3,7 @@
     text-align: center;
     position: relative;
     color: #fff;
-    margin-bottom: 102px;
-
+    margin-bottom: 705px;
 }
 
 .slider::after {
@@ -19,7 +18,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh; 
+    height: 150vh; 
 }
 
 .slider .title {
@@ -116,14 +115,14 @@
 
 .slider .container .product2 .price {
     left: 6%;
-    top: 39%;
+    top: 72%;
 }
 .slider .container .product2 .hover-element:hover+.price {
     display: block;
 }
 .slider .container .product2 .dot {
-    left: 9%;
-    top: 66%;
+    left: 7%;
+    top: 100%;
 }
 .slider .container .product2 .price .dollar {
     font-size: 32px;
@@ -137,14 +136,14 @@
 
 .slider .container .product3 .price {
     left: 3%;
-    top: 18%;
+    top: 54%;
 }
 .slider .container .product3 .hover-element:hover+.price {
     display: block;
 }
 .slider .container .product3 .dot {
     left: 4%;
-    top: 45%;
+    top: 81%;
 }
 .slider .container .product3 .price .dollar {
     font-size: 32px;
@@ -156,11 +155,37 @@
 }
 .slider .linear-gr {
     position: absolute;
-    bottom: -207px;
+    bottom: -540px;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
 .slider .linear-gr img {
     width: 100%;
+}
+
+
+.features{
+    margin-bottom: 142px;
+}
+.features .box {
+    width: 377px;
+    column-gap: 12px;
+}
+.features img {
+    width: 84px;
+    height: 84px;
+}
+.features .info {
+    flex-grow: 1;
+    font-weight: 500;
+    line-height: normal;
+}
+.features .first {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+.features .second {
+    color: #828282;
+    font-size: 20px;
 }
