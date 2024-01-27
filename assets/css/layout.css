@@ -1,9 +1,5 @@
-header {
-    background-color: #efefef;
-}
 header .container {
     height: 120px;
-    background-color: #efefef;
 }
 header .container .logo {
     width: 171px;
