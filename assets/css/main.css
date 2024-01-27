@@ -154,13 +154,13 @@
 .slider .container .product3 .price .name {
     font-size: 16px;
 }
-.slider .shadow {
+.slider .linear-gr {
     position: absolute;
     bottom: -207px;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
-.slider .shadow img {
+.slider .linear-gr img {
     width: 100%;
 }
