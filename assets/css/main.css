@@ -3,7 +3,7 @@
     text-align: center;
     position: relative;
     color: #fff;
-    margin-bottom: 300px;
+    margin-bottom: 102px;
 
 }
 
@@ -14,12 +14,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: -99;
+    z-index: -1;
     background-image: url(/assets/images/background-main.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 150vh; 
+    height: 100vh; 
 }
 
 .slider .title {
@@ -156,7 +156,11 @@
 }
 .slider .shadow {
     position: absolute;
-    bottom: -540px;
+    bottom: -207px;
     left: 0;
     right: 0;
+    margin: 0 auto;
+}
+.slider .shadow img {
+    width: 100%;
 }
