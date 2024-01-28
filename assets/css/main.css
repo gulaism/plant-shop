@@ -42,8 +42,6 @@
     border: 1px solid #fff;
     margin: 0 auto;
     height: 71px;
-
-
 }
 
 .slider .input input {
@@ -410,6 +408,7 @@
 
 .care {
     line-height: normal;
+    margin-bottom: 209px;
 }
 .care .container {
    column-gap: 115px;

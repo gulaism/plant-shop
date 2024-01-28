@@ -42,3 +42,85 @@ header .container .btn .notification {
     top: 3px;
     left: 18px;
 }
+
+
+footer {
+    background-image: var(--footerbg);
+}
+footer .container {
+    padding: 120px 0;
+    color: #fff;
+}
+footer .container .above{
+    column-gap: 75px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 52px;
+}
+footer .container .above .news .title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+footer .container .above .news .subscribe {
+    width: 390px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 71px;
+}
+footer .container .above .news .subscribe input {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 24px 30px;
+}
+footer .container .above .news .subscribe input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .container .above .news .subscribe input:focus {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+footer .container .above .news .subscribe .btn {
+    background-image: var(--colorfulbg);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 24px;
+    border-radius: 50px;
+    top: 12px;
+    right: 12px;
+}
+footer .container .above .columns{
+    flex-grow: 1;
+    column-gap: 24px;
+}
+footer .container .above .columns .header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 34px;
+    white-space: nowrap;
+}
+footer .container .above .column .links {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+footer .container .above .column4{
+    width: 340px;
+}
+footer .container .below {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}

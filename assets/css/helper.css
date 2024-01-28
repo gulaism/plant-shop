@@ -37,6 +37,7 @@
 }
 .btn {
     background-color: transparent;
+    color: inherit;
 }
 .grid {
     display: grid;
