@@ -94,14 +94,14 @@
 }
 .slider .container .product .price {
     right: 6%;
-    top: 39%;
+    top: 72%;
 }
 .slider .container .product .hover-element:hover+.price {
     display: block;
 }
 .slider .container .product .dot {
     right: 9%;
-    top: 66%;
+    top: 100%;
 }
 .slider .container .product .price .dollar {
     font-size: 32px;
