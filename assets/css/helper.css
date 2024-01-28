@@ -38,3 +38,7 @@
 .btn {
     background-color: transparent;
 }
+.grid {
+    display: grid;
+    column-gap: 32px;
+}

@@ -189,3 +189,81 @@
     color: #828282;
     font-size: 20px;
 }
+
+
+.best-seller .container {
+    column-gap: 38px;
+}
+.best-seller .container .left {
+    font-weight: 500;
+    line-height: normal;
+    width: 363px;
+    margin-top: 243px;
+}
+.best-seller .container .left .title {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+.best-seller .container .left .subtitle {
+    font-size: 24px;
+    color: #4F4F4F;
+}
+.best-seller .container .left .icon {
+    width: 48px;
+    height: 48px;
+}
+.best-seller .container .left .icon img {
+    width: 100%;
+    height: 100%;
+}
+.best-seller .container .left .below {
+    column-gap: 8px;
+}
+.best-seller .container .right {
+    grid-template-columns: repeat(3, 245px);
+    margin-top: 0;
+    margin-bottom: 663px;
+}
+.best-seller .container .right .box .plant {
+    width: 245px;
+    height: 245px;
+}
+.best-seller .container .right .box .colored {
+    height: 300px;
+    background-color: #C1D0E4;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 123px;
+    left: 0;
+    right: 0;
+    z-index: -9;
+    position: absolute;
+}
+.best-seller .container .right .box .info {
+    background-color: #fff;
+    color: #000;
+    margin-top: 42px;
+    left: 0;
+    right: 0;
+    padding: 24px 30px;
+    border-radius: 50px;
+    flex-direction: column;
+    height: 261px;
+    color: #081323;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2), 0 6px 20px 0 rgba(198, 194, 194, 0.19);
+}
+.best-seller .container .right .box .info .below {
+    height: 64px;
+}
+.best-seller .container .right .box .info .below .plus {
+    width: 54px;
+    height: 54px;
+    
+}
+.best-seller .container .right .box .info .below .plus img {
+    width: 100%;
+    height: 100%;
+}
