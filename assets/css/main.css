@@ -255,6 +255,22 @@
     width: 245px;
     height: 245px;
 }
+.best-seller .container .right .box .shadow {
+    width: 62px;
+    height: 10px;
+    background-color: #A1A1A1;
+    filter: blur(5px);
+    top: 240px;
+    left: 87px;
+    z-index: -3;
+}
+.best-seller .container .right .box-item2 .shadow {
+    left: 90px;
+}
+.best-seller .container .right .box-item3 .shadow {
+    left: 93px;
+    top: 238px;
+}
 
 .best-seller .container .right .box .colored {
     height: 300px;
